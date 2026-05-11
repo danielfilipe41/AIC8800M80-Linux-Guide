@@ -1,0 +1,1 @@
+ACTION=="add", SUBSYSTEM=="scsi_generic", ATTRS{idVendor}=="1111", ATTRS{idProduct}=="1111", RUN+="/usr/bin/sg_raw /dev/%k FD 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F2"
